@@ -24,7 +24,7 @@ class Owner
   end
 
   def buy_fish(name)
-    fish = Fish.new(name)
+    fish = self.Fish.new(name)
     self.pets[0] << fish
     fish
   end
