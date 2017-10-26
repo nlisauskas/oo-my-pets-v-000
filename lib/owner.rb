@@ -6,7 +6,7 @@ class Owner
   @@count = 0
 
   def self.reset_all
-    @@all = []
+    self.count = 0 
   end
 
   def initialize(owner)
@@ -24,7 +24,7 @@ class Owner
   end
 
   def buy_fish(name)
-    fish = self.Fish.new(name)
+    fish = Fish.new(name)
     self.pets[0] << fish
     fish
   end
