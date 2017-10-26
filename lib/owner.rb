@@ -64,4 +64,10 @@ class Owner
   end
 
 
+  def list_pets
+    count_dogs = self.pets[:dogs].length
+    count_cats = self.pets[:cats].length
+    count_fishes = self.pets[:fishes].length
+    return "I have #{count_fishes} fish, #{count_dogs} dog(s), and #{count_cats} cat(s)."
+  end
 end
