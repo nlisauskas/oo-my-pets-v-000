@@ -22,10 +22,10 @@ class Owner
 
   def species(species)
     @species = species
-  end
 
-  def say_species
-    puts "I am a #{self.species}."
+    def say_species
+      puts "I am a #{species}."
+    end
   end
 
   def buy_fish(name)
