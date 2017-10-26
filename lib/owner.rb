@@ -7,7 +7,7 @@ class Owner
   @@count = 0
 
   def self.reset_all
-    count = 0 
+    count = 0
   end
 
   def initialize(owner)
@@ -20,8 +20,8 @@ class Owner
     @@all << @owner
   end
 
-  def species(animal)
-    self.species = animal
+  def species=(species)
+    @species = species
   end
 
   def buy_fish(name)
