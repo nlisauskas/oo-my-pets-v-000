@@ -7,7 +7,7 @@ class Owner
   @@count = 0
 
   def self.reset_all
-    count = 0
+    @@count = 0
   end
 
   def initialize(owner)
