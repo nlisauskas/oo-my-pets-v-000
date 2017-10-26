@@ -24,10 +24,6 @@ class Owner
     @@all
   end
 
-  def species
-    @species = species
-  end
-
   def buy_fish(name)
     fish = Fish.new(name)
     self.pets[0] << fish
