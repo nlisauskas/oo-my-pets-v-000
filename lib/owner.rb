@@ -63,6 +63,11 @@ class Owner
     end
   end
 
+  def sell_pets
+    self.pets.each do |type, pets|
+      self.pets[type] = []
+    end
+  end
 
   def list_pets
     count_dogs = self.pets[:dogs].length
