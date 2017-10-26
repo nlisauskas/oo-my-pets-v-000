@@ -27,10 +27,6 @@ class Owner
 
   def species(species)
     @species = species
-
-    def self.say_species
-      puts "I am a #{species}."
-    end
   end
 
   def buy_fish(name)
