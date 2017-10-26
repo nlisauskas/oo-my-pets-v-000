@@ -69,6 +69,10 @@ class Owner
         pets.mood = "nervous"
       end
     end
+
+    self.pets.each do |type|
+      self.pets[type] = []
+    end
   end
 
   def list_pets
