@@ -20,7 +20,7 @@ class Owner
     @@all << @owner
   end
 
-  def species=(species)
+  def species(species)
     @species = species
   end
 
