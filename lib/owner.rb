@@ -21,6 +21,10 @@ class Owner
     @@count
   end
 
+  def self.all
+    @@all
+  end
+
   def species(species)
     @species = species
 
