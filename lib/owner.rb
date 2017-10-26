@@ -16,6 +16,10 @@ class Owner
     @@count += 1
   end
 
+  def self.count
+    count
+  end
+
   def self.all
     @@all << @owner
   end
