@@ -66,6 +66,7 @@ class Owner
   def sell_pets
     self.pets.each do |type, pets|
       self.pets[type] = []
+      self.pets[type].pets.mood = "nervous"
     end
   end
 
