@@ -71,7 +71,7 @@ class Owner
     end
 
     self.pets.each do |type|
-      self.pets[type] = []
+      self.pets[type].clear
     end
   end
 
