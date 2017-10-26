@@ -1,5 +1,7 @@
 class Owner
 
+  attr_accessor :owner, :pets
+
   @@all = []
 
   def self.reset_all
