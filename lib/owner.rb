@@ -70,11 +70,6 @@ class Owner
       end
     end
 
-    self.pets.each do |type,pets|
-      self.pets[type].each do |pets|
-        pets.delete
-      end
-    end
   end
 
   def list_pets
